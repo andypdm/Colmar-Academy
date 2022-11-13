@@ -1,0 +1,164 @@
+html * {
+    border: 1px solid black;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1440px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+    
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+.headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 24px;
+}
+
+div#logocontainer {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 32px;
+}
+
+body {}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 16px;
+}
+
+.mainbanner {
+    display: inline-flex;
+    align-items: center;
+}
+
+.mainbanner img {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.mainbannertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 305px;
+}
+
+button {
+    padding: 8px 0px;
+    width: 100%;
+}
+
+
+.information-main {
+    width: 100%;
+}
+
+.information-main-block {
+    width: 60%;
+    margin: 32px 24px
+}
+
+.information-second-block {
+    width: 40%;
+    margin: 32px 0 32px 0;
+}
+
+.info-small-img {
+    width: 35%;
+    height: auto;
+}
+
+.info-block {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-block-one {
+    padding: 0px 16px 16px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    size: 100%;
+}
+
+.info-small-text {
+    margin-left: 16px;
+}
+
+.learning {
+    margin: auto;
+    display: flex;
+    margin: 32px 72px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learning-img {
+    height: auto;
+    width: 400px;
+}
+
+.learning-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.learning-text {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    padding: 16px;
+}
+
+.thesis video {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thesis-box-div {
+    display: flex;
+    width: 100%;
+}
+
+.thesis-second-block {
+    width: 40%;
+    margin: 32px 0 32px 0;
+}
